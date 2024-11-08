@@ -24,5 +24,10 @@ public class Category {
 	public void setPhnno(int phnno) {
 		this.phnno = phnno;
 	}
+	@Override
+	public String toString() {
+		return "Category [id=" + id + ", name=" + name + ", phnno=" + phnno + "]";
+	}
+	
 	
 }
