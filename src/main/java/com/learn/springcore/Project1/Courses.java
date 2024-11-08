@@ -34,6 +34,10 @@ public class Courses {
 		CourseName = courseName;
 		CoursePrice = coursePrice;
 	}
+	public Courses() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 }
