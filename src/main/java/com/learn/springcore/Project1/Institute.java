@@ -24,6 +24,11 @@ public class Institute {
 	public void setInstitudeAddress(int institudeAddress) {
 		InstitudeAddress = institudeAddress;
 	}
+	@Override
+	public String toString() {
+		return "Institute [InstituteId=" + InstituteId + ", InstituteName=" + InstituteName + ", InstitudeAddress="
+				+ InstitudeAddress + "]";
+	}
 	
 	
 }
