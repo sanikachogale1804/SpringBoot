@@ -14,7 +14,8 @@ public class Project1Main {
 		Institute institute1 = context.getBean("institute1",Institute.class);
 		System.out.println(institute1);
 		
-		
+		Institute institute2 = context.getBean("institute2",Institute.class);
+		System.out.println(institute2);
 	}
 
 }
