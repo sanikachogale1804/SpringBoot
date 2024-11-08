@@ -10,4 +10,8 @@ public class Project1Config {
 		return new Institute(); 
 	}
 	
+	public Institute institute2()
+	{
+		return new Institute();
+	}
 }
