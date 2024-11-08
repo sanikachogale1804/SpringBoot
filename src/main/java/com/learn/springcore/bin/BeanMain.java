@@ -9,7 +9,6 @@ public class BeanMain {
 	
 	public static void main(String[] args) {
 		//bean ko fetch karna AnnotationConfigApplicationContext banaya
-		//AnnotationConfigApplicationContext
 		//in furture apko object fetch karna(matlab xml me vagere kam karna hai ) to bus object name change karke kam hoga is liye ApplicationContext(parent interface) ye liya
 		//AnnotationConfigApplicationContext iska object context me store hai 
 		ApplicationContext context=
