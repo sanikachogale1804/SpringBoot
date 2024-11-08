@@ -4,7 +4,7 @@ public class Institute {
 
 	private int InstituteId;
 	private String InstituteName;
-	private int InstitudeAddress;
+	private String InstitudeAddress;
 	
 	public int getInstituteId() {
 		return InstituteId;
@@ -18,10 +18,10 @@ public class Institute {
 	public void setInstituteName(String instituteName) {
 		InstituteName = instituteName;
 	}
-	public int getInstitudeAddress() {
+	public String getInstitudeAddress() {
 		return InstitudeAddress;
 	}
-	public void setInstitudeAddress(int institudeAddress) {
+	public void setInstitudeAddress(String institudeAddress) {
 		InstitudeAddress = institudeAddress;
 	}
 	@Override
@@ -29,7 +29,7 @@ public class Institute {
 		return "Institute [InstituteId=" + InstituteId + ", InstituteName=" + InstituteName + ", InstitudeAddress="
 				+ InstitudeAddress + "]";
 	}
-	public Institute(int instituteId, String instituteName, int institudeAddress) {
+	public Institute(int instituteId, String instituteName, String institudeAddress) {
 		super();
 		InstituteId = instituteId;
 		InstituteName = instituteName;

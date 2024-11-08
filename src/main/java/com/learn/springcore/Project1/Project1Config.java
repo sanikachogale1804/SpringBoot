@@ -9,13 +9,13 @@ public class Project1Config {
 	@Bean
 	public Courses courses()
 	{
-		return new Courses();
+		return new Courses(101,"Full stack Java",50000);
 	}
 	
 	@Bean
 	public Institute institute1()
 	{
-		return new Institute(); 
+		return new Institute(357,"IT vedant","Andheri"); 
 	}
 	
 	@Bean
