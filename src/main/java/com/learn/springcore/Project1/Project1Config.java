@@ -13,6 +13,12 @@ public class Project1Config {
 	}
 	
 	@Bean
+	public Courses course2()
+	{
+		return new Courses(102,"Full stack Python",40000);
+	}
+	
+	@Bean
 	public Institute institute1()
 	{
 		return new Institute(357,"IT vedant","Andheri"); 

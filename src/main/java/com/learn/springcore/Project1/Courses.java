@@ -28,11 +28,11 @@ public class Courses {
 	public String toString() {
 		return "Courses [CourseId=" + CourseId + ", CourseName=" + CourseName + ", CourseFees=" + CourseFees + "]";
 	}
-	public Courses(int courseId, String courseName, int coursePrice) {
+	public Courses(int courseId, String courseName, int courseFees) {
 		super();
 		CourseId = courseId;
 		CourseName = courseName;
-		CourseFees = CourseFees;
+		CourseFees = courseFees;
 	}
 	public Courses() {
 		super();
