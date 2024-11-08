@@ -35,6 +35,10 @@ public class Institute {
 		InstituteName = instituteName;
 		InstitudeAddress = institudeAddress;
 	}
+	public Institute() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 }
