@@ -8,7 +8,12 @@ public class Project1Main {
 	public static void main(String[] args) {
 		ApplicationContext context=
 		new AnnotationConfigApplicationContext(Project1Config.class);
-		Courses course = context.getBean("Courses",Courses.class);
+		Courses course = context.getBean("courses",Courses.class);
+		System.out.println(course);
+		
+		Institute institute1 = context.getBean("institute1",Institute.class);
+		System.out.println(institute1);
+		
 		
 	}
 
