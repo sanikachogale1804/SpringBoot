@@ -11,9 +11,6 @@ public class Project1Main {
 		Courses course = context.getBean("courses",Courses.class);
 		System.out.println(course);
 		
-		Courses course2 = context.getBean("course2",Courses.class);
-		System.out.println(course2);
-		
 		Institute institute1 = context.getBean("institute1",Institute.class);
 		System.out.println(institute1);
 		
