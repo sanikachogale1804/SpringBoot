@@ -24,5 +24,10 @@ public class Courses {
 	public void setCoursePrice(int coursePrice) {
 		CoursePrice = coursePrice;
 	}
+	@Override
+	public String toString() {
+		return "Courses [CourseId=" + CourseId + ", CourseName=" + CourseName + ", CoursePrice=" + CoursePrice + "]";
+	}
+	
 	
 }
