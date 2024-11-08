@@ -28,6 +28,13 @@ public class Category {
 	public String toString() {
 		return "Category [id=" + id + ", name=" + name + ", phnno=" + phnno + "]";
 	}
+	public Category(int id, String name, int phnno) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.phnno = phnno;
+	}
+	
 	
 	
 }
