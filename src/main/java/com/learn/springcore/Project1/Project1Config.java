@@ -21,6 +21,6 @@ public class Project1Config {
 	@Bean
 	public Institute institute2()
 	{
-		return new Institute();
+		return new Institute(358,"Vidya bhavan","Ghatkopar");
 	}
 }
