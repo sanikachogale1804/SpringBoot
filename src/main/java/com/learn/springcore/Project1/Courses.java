@@ -28,6 +28,12 @@ public class Courses {
 	public String toString() {
 		return "Courses [CourseId=" + CourseId + ", CourseName=" + CourseName + ", CoursePrice=" + CoursePrice + "]";
 	}
+	public Courses(int courseId, String courseName, int coursePrice) {
+		super();
+		CourseId = courseId;
+		CourseName = courseName;
+		CoursePrice = coursePrice;
+	}
 	
 	
 }
