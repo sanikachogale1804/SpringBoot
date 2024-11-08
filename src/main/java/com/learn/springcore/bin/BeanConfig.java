@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration//sari porjects ke related setting hai to configuration karega(important stuff where to scan package,package kaha pe milenge,exception handli hogi ki nahi vagere)
+@Configuration//sari porjects ke related setting hai to configuration karega(important stuff where to scan package,package kaha pe milenge,exception handling hogi ki nahi vagere)
 //compenentscan usi pe lagaoge jo configuration hai
 public class BeanConfig {
 	
