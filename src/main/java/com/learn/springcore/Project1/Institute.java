@@ -29,6 +29,12 @@ public class Institute {
 		return "Institute [InstituteId=" + InstituteId + ", InstituteName=" + InstituteName + ", InstitudeAddress="
 				+ InstitudeAddress + "]";
 	}
+	public Institute(int instituteId, String instituteName, int institudeAddress) {
+		super();
+		InstituteId = instituteId;
+		InstituteName = instituteName;
+		InstitudeAddress = institudeAddress;
+	}
 	
 	
 }
