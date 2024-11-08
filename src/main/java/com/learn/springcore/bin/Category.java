@@ -34,6 +34,10 @@ public class Category {
 		this.name = name;
 		this.phnno = phnno;
 	}
+	public Category() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 	
